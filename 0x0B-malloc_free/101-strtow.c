@@ -1,4 +1,4 @@
-include <stdlib.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -7,6 +7,7 @@ include <stdlib.h>
  *
  * Return: number of words
  */
+
 int count_word(char *s)
 {
 	int flag, c, w;
@@ -34,6 +35,7 @@ int count_word(char *s)
  * Return: pointer to an array of strings (Success)
  * or NULL (Error)
  */
+
 char **strtow(char *str)
 {
 	char **matrix, *tmp;
